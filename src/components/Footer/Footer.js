@@ -9,7 +9,7 @@ export default function Footer(){
 
     return(
         <footer>
-            &copy;&nbsp; Copyright {getDate()}
+            &copy;&nbsp; Copyright {getDate()}.
         </footer>
     )
 }

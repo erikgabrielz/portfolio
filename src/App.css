@@ -8,28 +8,8 @@
     justify-content: space-between;
 }
 
-.apresentation{
-    height: 100vh;
-}
 
 .body{
     background-color: black;
     color: white;
-}
-
-#about{
-    height: 1100px;
-}
-
-#services{
-    background-color: #060606;
-    height: 1100px;
-}
-
-#portfolio{
-    height: 1100px;
-}
-
-#contact{
-    height: 1100px;
 }
