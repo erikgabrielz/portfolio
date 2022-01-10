@@ -1,0 +1,33 @@
+header{
+    position: fixed;
+    width: 100%;
+    transition: all .5s;
+
+    color: white;
+    font-weight: 600;
+}
+
+header div.container{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .navigation ul {
+    list-style-type: none;
+}
+
+header .navigation ul li {
+    padding: 15px;
+    transition: all .2s ease;
+}
+
+header .navigation ul a:hover, header .navigation ul li:hover {
+    cursor: pointer;
+    color: #00BFFF;
+}
+
+header a{
+    color: white;
+}
