@@ -8,5 +8,6 @@
 body{
     background-image: url('../public/images/notebook.jpg');
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
 }

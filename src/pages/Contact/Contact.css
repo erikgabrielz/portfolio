@@ -1,3 +1,69 @@
 #contact{
-    height: 1100px;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+#contact .container{
+    max-width: 30%;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 25pt;
+    margin-bottom: 40px;
+}
+
+.form-group{
+    padding: 5px;
+    margin: 15px;
+}
+
+.form-group input, .form-group textarea{
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-bottom: 1.5px solid white;
+    background-color: transparent;
+    color: white;
+    outline: 0;
+    transition: all .2s ease;
+    width: 100%;
+    text-align: center;
+}
+
+.form-group textarea{
+	overflow: auto;
+	overflow-x: hidden;
+    resize: none;
+}
+
+.form-group textarea::-webkit-scrollbar-track{
+	background-color: transparent;
+}
+
+.form-group textarea::-webkit-scrollbar{
+	width: 4px;
+	background-color: transparent;
+}
+
+.form-group textarea::-webkit-scrollbar-thumb{
+	border-radius: 100px;
+	background-color: #00BFFF;
+}
+
+.form-group input:focus, .form-group textarea:focus{
+    border-bottom: 1.5px solid #00BFFF;
+}
+
+#contact .submit{
+    border: 1.5px solid white;
+    padding: 5px;
+    width: 140px;
+    transition: all .2s ease;
+}
+
+#contact .submit:hover{
+    color: #00BFFF;
+    border: 1.5px solid #00BFFF;
 }
