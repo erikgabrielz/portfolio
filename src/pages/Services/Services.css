@@ -1,4 +1,38 @@
 #services{
     background-color: #060606;
-    height: 1100px;
+    max-height: 1100px;
+}
+
+#services .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+#services .card{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#services .card .card-title{
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#services .card svg{
+    fill: currentcolor;
+    width: 40px;
+    height: 40px;
+    color: #00b8e4;
+}
+
+#services .card .card-description{
+    font-size: 12pt;
 }

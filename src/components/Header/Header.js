@@ -1,16 +1,25 @@
+import { useState } from 'react';
 import './Header.css';
 
 import { Link, animateScroll as scroll } from "react-scroll";
 import { FaInstagram, FaFacebookF } from 'react-icons/fa';
 
 export default function Header(){
+    const [backgroundState, setBackgroundState] = useState('transparent');
 
     const scrollToTop = () => {
         scroll.scrollToTop();
     };
 
+    
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 500) setBackgroundState('black');
+        else setBackgroundState('transparent');
+    });
+
+
     return(
-        <header>
+        <header style={{backgroundColor: backgroundState}}>
             <div className='container flex'>
                 <div className='logo'>
                     <img src="" alt="Logo" />

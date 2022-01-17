@@ -67,13 +67,22 @@ export default function Contact(){
             <div className='container'>
                 <form method="POST" action="http://localhost/sendmail">
                     <div className="form-group">
-                        <span>* Nome</span><br/><input type="text" name="name" onChange={(e) => handleForm(e)} value={formState.name} />
+                        <label>
+                            <span>* Nome</span><br/>
+                            <input type="text" name="name" onChange={(e) => handleForm(e)} value={formState.name} />
+                        </label>
                     </div>
                     <div className="form-group">
-                        <span>* E-mail</span><br/><input type="email" onChange={(e) => handleForm(e)} name="email" value={formState.email} />
+                        <label>
+                            <span>* E-mail</span><br/>
+                            <input type="email" onChange={(e) => handleForm(e)} name="email" value={formState.email} />
+                        </label>
                     </div>
                     <div className="form-group">
-                        <span>* Mensagem</span><br/><textarea name="message" onChange={(e) => handleForm(e)} value={formState.message}></textarea>
+                        <label>
+                            <span>* Mensagem</span><br/>
+                            <textarea name="message" onChange={(e) => handleForm(e)} value={formState.message}></textarea>
+                        </label>
                     </div>
                     <div className="form-group">
                         <input className="submit" type="submit" onClick={(e) => handleSubmit(e)} value="Enviar" />

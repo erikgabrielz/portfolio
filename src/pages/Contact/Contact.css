@@ -7,13 +7,6 @@
     max-width: 30%;
 }
 
-.title{
-    display: flex;
-    justify-content: center;
-    font-size: 25pt;
-    margin-bottom: 40px;
-}
-
 .form-group{
     padding: 5px;
     margin: 15px;
